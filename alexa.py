@@ -100,7 +100,7 @@ if st.button("Listen for Command"):
             result = open_vscode()
         elif "open chat gpt" in command:
             result = open_chatgpt()
-        elif "what's the time" in command:
+        elif "time" in command:
             result = tell_time()
         else:
             result = "Command not recognized. Please try again."
